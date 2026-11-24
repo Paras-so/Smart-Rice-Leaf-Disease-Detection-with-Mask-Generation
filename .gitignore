@@ -1,0 +1,8 @@
+.env
+/Dataset/
+/results/pixel_annotation_pilot/reviews/
+/results/pixel_annotation_pilot/*.csv
+!/results/pixel_annotation_pilot/pilot_selection.csv
+/results/**/last_checkpoint.pt
+/results/**/best_weights.pth
+/*.zip

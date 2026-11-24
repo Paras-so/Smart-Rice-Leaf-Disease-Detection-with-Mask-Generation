@@ -1,0 +1,18 @@
+{
+  "mode": "simulation",
+  "physical_actuation_enabled": false,
+  "calibration_validated": false,
+  "application_limits_validated": false,
+  "flow_ml_per_second": null,
+  "target_volume_ml": null,
+  "available_volume_ml": null,
+  "tank_capacity_ml": null,
+  "maximum_duration_ms": null,
+  "nozzle_specification": null,
+  "pipe_diameter_mm": null,
+  "pump_voltage_v": null,
+  "relay_pin": null,
+  "relay_active_low": null,
+  "communication_timeout_seconds": 5.0,
+  "note": "No dose is derived from disease severity. Null measurements prevent spray planning."
+}

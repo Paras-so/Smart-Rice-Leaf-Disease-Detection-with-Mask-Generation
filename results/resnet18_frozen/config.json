@@ -1,0 +1,42 @@
+{
+  "seed": 42,
+  "max_epochs": 100,
+  "patience": 8,
+  "batch_size": 32,
+  "head_lr": 0.001,
+  "backbone_lr": 0.0001,
+  "weight_decay": 0.0001,
+  "fine_tune_last_block": false,
+  "hidden_layers": [
+    512,
+    256,
+    128
+  ],
+  "classes": [
+    "Bacterial Leaf Blight",
+    "Brown Spot",
+    "Healthy Rice Leaf",
+    "Leaf Blast",
+    "Leaf scald",
+    "Narrow Brown Leaf Spot",
+    "Rice Hispa",
+    "Rice Turgro",
+    "Sheath Blight"
+  ],
+  "class_to_idx": {
+    "Bacterial Leaf Blight": 0,
+    "Brown Spot": 1,
+    "Healthy Rice Leaf": 2,
+    "Leaf Blast": 3,
+    "Leaf scald": 4,
+    "Narrow Brown Leaf Spot": 5,
+    "Rice Hispa": 6,
+    "Rice Turgro": 7,
+    "Sheath Blight": 8
+  },
+  "weights": "ResNet18_Weights.IMAGENET1K_V1",
+  "min_delta": 0.0,
+  "split_manifest_sha256": "b98b57aba8db6130343ac02206b2213c8a473f3ac49136c378ec6976851a6342",
+  "augmentation_manifest_sha256": "5643a3e2602532e0504b6dd3ec16cc5a12a7e04ddcd4355952ac7109be6ec5e8",
+  "augmentation_config_sha256": "e413712b82ae542af0d702bef39b97e221ef52589071144834bd727f2c79104a"
+}

@@ -1,0 +1,13 @@
+{
+  "checkpoint_sha256": "6b699c9027ff322d8b46e8a8e33412f12cbef0e0c2d0c502f3914cf1f48560f7",
+  "images": 584,
+  "steps": 10,
+  "target": "original predicted class (fixed throughout perturbation)",
+  "ranking": "saved predicted-class Grad-CAM, descending, stable tie order",
+  "deletion_baseline": "ImageNet mean RGB",
+  "insertion_baseline": "Gaussian blur: kernel 51, sigma 20, on 224x224 crop",
+  "zero_cam_images": 0,
+  "device": "cpu",
+  "deletion_auc": 0.22215795311339373,
+  "insertion_auc": 0.5618171815532484
+}

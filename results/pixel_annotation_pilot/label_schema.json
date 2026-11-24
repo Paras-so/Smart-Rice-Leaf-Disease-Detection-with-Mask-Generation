@@ -1,0 +1,12 @@
+{
+  "mask_values": {
+    "0": "unmarked (background or apparently unaffected tissue)",
+    "1": "visibly disease-affected tissue"
+  },
+  "coordinates": "EXIF-transposed full-resolution source image",
+  "scope": "visible symptomatic tissue; include contiguous discoloration halo in draft",
+  "status": "draft proposals; not expert ground truth",
+  "measurement": "affected_image_percent uses image area, not leaf area; not disease severity",
+  "healthy_control": "empty mask; not a failed annotation",
+  "limitations": "appearance cannot establish lesion cause; missed regions and boundaries require review"
+}

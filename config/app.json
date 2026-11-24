@@ -1,0 +1,7 @@
+{
+  "classifier": "results/resnet18_frozen/best_model.pt",
+  "segmenter": "results/unet_disease_segmentation/best_model.pt",
+  "device": "auto",
+  "serial": {"port": "", "baudrate": 115200, "timeout": 2.0, "max_line_bytes": 2048},
+  "physical_spraying_enabled": false
+}

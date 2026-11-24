@@ -1,0 +1,10 @@
+# Match tested local inference/runtime APIs; choose the torch build for your OS/GPU.
+torch>=2.7,<3
+torchvision>=0.22,<1
+numpy>=2.0,<3
+pandas>=2.2,<4
+Pillow>=10.4,<13
+opencv-python>=4.10,<5
+streamlit>=1.61,<2
+pyserial>=3.5,<4
+pillow-heif>=1.0,<2

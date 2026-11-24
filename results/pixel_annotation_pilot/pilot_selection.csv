@@ -1,0 +1,7 @@
+id,path,class,sha256,split
+pilot_01,Bacterial Leaf Blight/Bacterial_leaf_Blight  (56).jpg,Bacterial Leaf Blight,fa8ead85f36726e59f4eb53c5f96c72ebd650192ef93e13fef600e72cc9bef58,train
+pilot_02,Brown Spot/bs_wb_8.jpg,Brown Spot,54569db77f2d0f193d9997c2c7903124e6c882a3fae331a06d7b4d3b0ac8e2a4,validation
+pilot_03,Healthy Rice Leaf/bd5_f1f69bff2cd3290c.jpg,Healthy Rice Leaf,3b877594887db7a6a9f30450e106c9358e7bc3513305b7d2408ca4a8721ea30b,test
+pilot_04,Leaf Blast/Leaf_blast  (115).jpg,Leaf Blast,948edcc62377c1471f8252d1b3a8bd4d6ea27105519dbe62619103b98e1ef966,train
+pilot_05,Rice Hispa/Rice_hispa  (14).jpg,Rice Hispa,e2f1fedf123932ae96adc0296a5a91d07006866a051ac9b5f7aca4f3d6839ab1,train
+pilot_06,Sheath Blight/Sheath_blight  (235).jpg,Sheath Blight,51ab941d1296b09933c6d103f16a3a06da4e31de1e7498b8f9e0954db0c4e8f1,test
